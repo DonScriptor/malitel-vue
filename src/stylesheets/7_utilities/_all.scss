@@ -1,0 +1,19 @@
+@import './utilitynames.scss';
+
+
+/* desktop - ipad landscap - ipad portrait */
+// desktop
+@media (min-width: 1024px) {}
+
+// iPad in portrait & landscape
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+// iPad in landscape
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+}
+
+//iPad in portrait
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+}

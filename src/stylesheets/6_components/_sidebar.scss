@@ -1,0 +1,92 @@
+// .vs-sidebar-parent {
+//     max-width: 270px;
+// }
+
+// .vs-sidebar--header,
+// .vs-sidebar--items,
+// .vs-sidebar--footer {
+//     padding: 0 !important;
+//     border: none !important;
+// }
+
+// .vs-sidebar--header {
+//     .header-sidebar {
+//         position: relative;
+//         height: 200px;
+
+//         ._logout {
+//             height: 130px;
+//             padding: 22px 22px 0;
+//             background-color: #F7F7F7;
+//             display: flex;
+//             justify-content: space-between;
+//             align-items: baseline;
+
+//             span {
+//                 cursor: pointer;
+//             }
+//         }
+
+//         ._user {
+//             height: 100px;
+//             position: absolute;
+//             bottom: 0;
+//             width: 100%;
+//             left: 0;
+//             text-align: center;
+
+//             img {
+//                 width: 60px;
+//                 height: 60px;
+//                 border-radius: 50%;
+//             }
+
+//             span.d-block {
+//                 font-size: 14px;
+//                 color: $theme_font;
+//                 font-weight: bold;
+//                 margin-top: 1rem;
+//             }
+//         }
+//     }
+
+// }
+
+// .vs-sidebar--items {
+//     height: calc(100% - 330px);
+
+//     .default-sidebar {
+//         height: 100%;
+//         padding: 1rem 3rem;
+
+//         a {
+//             display: block;
+//             font-size: 14px;
+//             color: $theme_font;
+//             font-weight: bold;
+//             margin: 14px 0;
+
+//             span {
+//                 margin: 0 14px;
+//                 vertical-align: middle;
+//             }
+//         }
+//     }
+// }
+
+// .vs-sidebar--footer {
+//     text-align: center;
+//     height: 130px;
+
+//     .footer-sidebar {
+//         height: 100%;
+
+//         img {
+//             max-width: 150px;
+//         }
+
+//         p {
+//             margin-bottom: 0;
+//         }
+//     }
+// }

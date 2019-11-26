@@ -1,0 +1,151 @@
+/* utilities and general helpers */
+
+/* custom css helper */
+.rtl {
+  direction: rtl;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-evenly-center {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.auto-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.m-auto {
+  margin: auto
+}
+
+.text-center {
+  text-align: center;
+}
+
+.round {
+  border-radius: 50%
+}
+
+.rotate-r-90 {
+  transform: rotate(90deg)
+}
+
+.rotate-l-90 {
+  transform: rotate(-90deg)
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.shadow-generic {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-round {
+  border-radius: 36px;
+}
+
+.button-outline {
+  border: 1px solid #707070;
+}
+
+.rotate-180 {
+  transform: rotate(180deg)
+}
+
+.rotate-0 {
+  transform: rotate(0deg)
+}
+
+
+.ss-validation {
+  background: rgba(220, 53, 69, 0.82);
+  padding: 0.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+
+  span {
+    font-size: 12px;
+    display: block;
+  }
+}
+
+.text-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.h-divider {
+  height: 2px;
+  background: #E5E5E5;
+  margin: 1rem 0;
+}
+
+
+.badge-meal {
+  color: #fff;
+  background-color: #EE8700;
+}
+
+.badge-single {
+  color: #fff;
+  background-color: #5891C1;
+}
+
+.badge-combo {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.button-active {
+  color: #FFF !important;
+}

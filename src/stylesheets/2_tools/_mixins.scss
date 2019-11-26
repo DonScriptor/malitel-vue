@@ -1,0 +1,58 @@
+// @mixin apps_tokens($width, $height, $with_icon, $font_size, $font_color) {
+//     grid-template-columns: repeat(auto-fill, minmax($width, auto));
+
+//     .app {
+//         width: $width;
+//         height: $height;
+
+//         .wrapper {
+//             .icon {
+//                 display: $with_icon;
+//             }
+
+//             .name {
+//                 font-size: $font_size;
+//                 color: $font_color;
+//             }
+//         }
+//     }
+// }
+
+// @mixin popup_form_label_size($max_width) {
+//     .form-row {
+//         .col-form-label {
+//             max-width: $max_width;
+//         }
+//     }
+// }
+
+// @mixin modal_width($max_width) {
+//     @media (min-width: 576px) {
+//         .modal-dialog {
+//             max-width: $max_width;
+//         }
+//     }
+// }
+
+
+
+// // mixin for select nth child in table 
+// @mixin eachNth($num) {
+//     &:nth-child(#{$num}) {
+//         @content;
+//     }
+// }
+
+// direction mixin for LTR
+@mixin ltr {
+    :root:not(.rtl) {
+        @content;
+    }
+}
+
+// direction mixin for RTL
+@mixin rtl {
+    :root.rtl {
+        @content;
+    }
+}

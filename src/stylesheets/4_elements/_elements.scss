@@ -1,0 +1,58 @@
+/* application wide font settings*/
+@font-face {
+    font-family: AvenirNextLTPro;
+    src: url('../assets/fonts/AvenirNextLTPro-Regular.otf');
+}
+/* html root elements */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: relative;
+    font-family: "AvenirNextLTPro", 'Open Sans';
+    /* line-height: 1.8 !important; */
+    // overflow-x: hidden;
+}
+
+// button,
+// label,
+// ::placeholder {
+//     text-transform: capitalize;
+
+// }
+
+// button {
+//     font-weight: bold;
+// }
+
+// /* from elements */
+// label {
+//     font-size: 14px;
+//     font-weight: bold;
+// }
+
+// input[type=search]{
+//     padding: 0 3rem;
+//     background-image: url(http://i47.tinypic.com/r02vbq.png);
+//     background-repeat: no-repeat;
+//     background-position: left;
+//     outline: 0;
+// }
+// ::placeholder {
+//     font-size: 14px !important;
+// }
+
+// :focus {
+//     box-shadow: none !important;
+// }
+
+
+// select:not(:focus) {
+// }
+
+// legend{
+//     text-transform: capitalize;
+// }
