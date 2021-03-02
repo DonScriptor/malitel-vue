@@ -6,13 +6,13 @@ import CreateAccount from '../views/CreateAccount.vue';
 import VerifyNumber from '../views/VerifyNumber.vue';
 import SetPassword from '../views/SetPassword.vue';
 import ResetPassword from '../views/ResetPassword.vue';
-
+import userRoutes from '../views/user/user.routes'
 
 
 Vue.use(VueRouter);
 const accountCreationRoutes = [
   {
-    path: "sign-in",
+    path: "/sign-in",
     name: "sign-in",
     component: SignIn
   },
@@ -47,6 +47,11 @@ const routes = [
     name: "home",
     component: Home,
     children: accountCreationRoutes
+  },
+  {
+    path: "/",
+    component: () => import( /* webpackChunkName: "user" */ '@/views/user'),
+    children: userRoutes
   },
   
 ];

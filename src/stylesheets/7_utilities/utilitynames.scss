@@ -149,3 +149,24 @@
 .button-active {
   color: #FFF !important;
 }
+
+.button-raw,
+.button-raw:hover,
+.button-raw:focus,
+.button-raw:active {
+  background: transparent !important;
+  border: none !important;
+  color: $theme_color !important;
+  box-shadow: none !important;
+}
+
+
+.no-underline{
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+.apply-theme-color{
+  color: $theme_color;
+}

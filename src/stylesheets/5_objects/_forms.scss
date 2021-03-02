@@ -22,6 +22,7 @@
 
 .generic_form_header {
     margin-bottom: 30px;
+
     h3 {
         font-size: 36px;
         font-weight: bold;
@@ -36,7 +37,10 @@
 .generic_form {
     margin-bottom: 20px;
 
-    .col-form-label {
+
+
+    .col-form-label,
+    label {
         font-size: 16px;
         text-transform: capitalize;
         font-weight: bold;
@@ -50,7 +54,7 @@
         border: solid 1px #979797;
 
         &:focus {
-            border-color: red;
+            border-color: $theme_color_secondary;
         }
 
         &::placeholder {
@@ -62,6 +66,8 @@
 }
 
 .generic_form_action {
+    margin: 30px 0;
+
     button {
         height: 60px;
         background-color: $theme_color_secondary;
@@ -69,6 +75,18 @@
         font-size: 18px;
         font-weight: 500;
         text-transform: capitalize;
+
+        &:hover {
+            background-color: $theme_color;
+        }
+
+        a {
+            color: #FFF;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
 
         .svg-inline--fa.fa-w-14 {
             margin: 0 0.5rem;

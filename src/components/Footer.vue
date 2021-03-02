@@ -90,6 +90,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   padding: 100px 105px;
+  margin-top: 60px;
   & > div:not(:last-child) {
     width: 20%;
   }

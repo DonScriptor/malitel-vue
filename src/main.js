@@ -5,17 +5,18 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
+import ApiService from "@/services/api.service";
 /******** Settings ******* */
 import './settigns/components-library';
 import './settigns/stylesheets';
 import './settigns/fa.config';
+import './settigns/validation.config';
 
-// import './stylesheets/main.scss';
 
 Vue.config.productionTip = false;
 
-
-
+// Initializing axios
+ApiService.init();
 
 
 

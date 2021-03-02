@@ -22,6 +22,7 @@
           >
             {{ locale.title }}
           </button>
+          {{ currentLocale }}
         </b-navbar-nav>
       </b-navbar-nav>
     </b-collapse>
@@ -29,6 +30,8 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   data() {
     return {
@@ -61,9 +64,7 @@ export default {
     };
   },
   computed: {
-    currentLocale() {
-      return "en";
-    }
+    ...mapGetters(["currentLocale"])
   }
 };
 </script>
